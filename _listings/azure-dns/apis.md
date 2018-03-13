@@ -26,7 +26,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/zones/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/zones/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/dns/
