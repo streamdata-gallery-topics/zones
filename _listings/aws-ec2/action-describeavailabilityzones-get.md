@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAvailabilityZones&k=1:
+  /?Action=DescribeAvailabilityZones:
     get:
       summary: Describe Availability Zones
       description: Describes one or more of the Availability Zones that are available
