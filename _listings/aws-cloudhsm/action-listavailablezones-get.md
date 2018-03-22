@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAvailableZones&k=1:
+  /?Action=ListAvailableZones:
     get:
       summary: ' List Available Zones '
       description: Lists the Availability Zones that have available AWS CloudHSM capacity
