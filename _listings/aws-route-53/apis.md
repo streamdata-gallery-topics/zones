@@ -40,7 +40,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzonesbyname-dnsname-dnsname-amp;hostedzoneid-hostedzoneid-amp;maxitems-maxitems-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-post.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
