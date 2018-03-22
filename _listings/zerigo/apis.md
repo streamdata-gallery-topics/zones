@@ -10,9 +10,9 @@ tags:
 - Stack Network
 - DNS General
 - DNS
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/zones/master/_listings/zerigo/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/zerigo/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
