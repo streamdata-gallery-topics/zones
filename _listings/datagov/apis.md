@@ -28,7 +28,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatial-zones-suggest-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatial-zones-ids-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
