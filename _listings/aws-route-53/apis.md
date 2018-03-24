@@ -30,17 +30,7 @@ created: "2018-03-24"
 modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: AWS Route 53 API
-  description: Amazon Route 53 is a highly available and scalable cloud Domain Name
-    System (DNS) web service
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: ""
-  baseURL: :///
-  tags: Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-get.md
+apis: []
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
