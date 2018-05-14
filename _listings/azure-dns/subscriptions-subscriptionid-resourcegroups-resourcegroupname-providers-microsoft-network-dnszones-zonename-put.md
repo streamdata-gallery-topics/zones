@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DnsManagementClient
-  description: The DNS Management Client.
+  title: Azure DNS API Zones Create Or Update
+  description: Creates or updates a DNS zone. Does not modify DNS records within the
+    zone.
   version: 1.0.0
 host: management.azure.com
 basePath: /
