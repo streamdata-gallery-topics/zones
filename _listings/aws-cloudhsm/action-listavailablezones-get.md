@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API List Available Zones
   version: 1.0.0
+  description: Lists the Availability Zones that have available AWS CloudHSM capacity.
 schemes:
 - http
 produces:
