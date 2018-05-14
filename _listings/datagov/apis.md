@@ -40,17 +40,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatial-zones-ids-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatial-zones-ids-get-postman.md
-- name: Data.gov API Get Spatial Zones Suggest
-  description: Suggest geospatial zones
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
-  humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3/
-  tags: Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatial-zones-suggest-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatial-zones-suggest-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
