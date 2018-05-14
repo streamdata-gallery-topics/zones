@@ -51,41 +51,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-post.md
-- name: AWS Route 53 API Delete Hosted Zone
-  description: Deletes a hosted zone. Send a DELETE request to the /Amazon Route 53API
-    version/hostedzone/hosted zone ID             resource.ImportantDelete a hosted
-    zone only if there are no resource record sets other than the defaultSOA record
-    and NS resource record sets. If the hosted zone contains other resource recordsets,
-    delete them before deleting the hosted zone. If you try to delete a hosted zone
-    thatcontains other resource record sets, Amazon Route 53 denies your request with
-    aHostedZoneNotEmpty error. For information about deleting records from yourhosted
-    zone, see ChangeResourceRecordSets.
+- name: AWS Route 53 API Get Hosted Zone
+  description: Retrieves the delegation set for a hosted zone, including the four
+    name serversassigned to the hosted zone. Send a GET request to the /Amazon Route
+    53 APIversion/hostedzone/hosted zone ID             resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
   baseURL: http:://{host}//
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-get.md
 x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/Route53/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/route53/faqs/
-- type: x-forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=87
-- type: x-pricing
-  url: https://aws.amazon.com/route53/pricing/
-- type: x-registrar-policies
-  url: https://aws.amazon.com/route53/amazon-registrar-policies/
-- type: x-service-health
-  url: http://status.aws.amazon.com/
-- type: x-service-level-agreement
-  url: https://aws.amazon.com/route53/sla
-- type: x-sla
-  url: https://aws.amazon.com/route53/sla/
-- type: x-website
-  url: https://aws.amazon.com/route53/
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
 - type: x-faq
