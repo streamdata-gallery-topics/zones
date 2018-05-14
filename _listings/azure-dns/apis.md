@@ -27,16 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptions-subscriptionid-providers-microsoft-network-dnszones-get.md
-- name: Azure DNS API Zones Create Or Update
-  description: Creates or updates a DNS zone. Does not modify DNS records within the
-    zone.
+- name: Azure DNS API Zones Delete
+  description: 'Deletes a DNS zone. WARNING: All DNS records in the zone will also
+    be deleted. This operation cannot be undone.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
   humanURL: https://azure.microsoft.com/en-us/services/dns/
   baseURL: http:://management.azure.com//
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/dns/
