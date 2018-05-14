@@ -854,6 +854,16 @@ x-common:
   url: https://azure.microsoft.com/en-us/status/
 - type: x-website
   url: https://azure.microsoft.com/en-us/services/dns/
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/dns/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/dns/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/dns/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/dns/
 include: []
 maintainers:
 - FN: Kin Lane
