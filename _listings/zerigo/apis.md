@@ -1084,6 +1084,18 @@ x-common:
   url: https://twitter.com/zerigo
 - type: x-website
   url: https://www.zerigo.com
+- type: x-blog
+  url: https://www.zerigo.com/blog
+- type: x-blog-rss
+  url: http://www.zerigo.com/blog.xml
+- type: x-github
+  url: https://github.com/zerigo
+- type: x-status
+  url: http://zerigostatus.com/
+- type: x-twitter
+  url: https://twitter.com/zerigo
+- type: x-website
+  url: https://www.zerigo.com
 include: []
 maintainers:
 - FN: Kin Lane
