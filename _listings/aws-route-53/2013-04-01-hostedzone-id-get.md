@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Route 53 API
+  title: AWS Route 53 API Get Hosted Zone
   version: 1.0.0
+  description: Retrieves the delegation set for a hosted zone, including the four
+    name serversassigned to the hosted zone. Send a GET request to the /Amazon Route
+    53 APIversion/hostedzone/hosted zone ID             resource.
 schemes:
 - http
 produces:
