@@ -1123,6 +1123,20 @@ x-common:
   url: https://aws.amazon.com/ec2/sla/
 - type: x-website
   url: https://aws.amazon.com/ec2/
+- type: x-code
+  url: http://aws.amazon.com/code/Amazon-EC2/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/ec2/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/ec2/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/ec2/pricing/
+- type: x-sla
+  url: https://aws.amazon.com/ec2/sla/
+- type: x-website
+  url: https://aws.amazon.com/ec2/
 include: []
 maintainers:
 - FN: Kin Lane
