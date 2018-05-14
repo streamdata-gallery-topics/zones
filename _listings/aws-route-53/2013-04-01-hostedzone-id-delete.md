@@ -1,8 +1,16 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Route 53 API
+  title: AWS Route 53 API Delete Hosted Zone
   version: 1.0.0
+  description: Deletes a hosted zone. Send a DELETE request to the /Amazon Route 53API
+    version/hostedzone/hosted zone ID             resource.ImportantDelete a hosted
+    zone only if there are no resource record sets other than the defaultSOA record
+    and NS resource record sets. If the hosted zone contains other resource recordsets,
+    delete them before deleting the hosted zone. If you try to delete a hosted zone
+    thatcontains other resource record sets, Amazon Route 53 denies your request with
+    aHostedZoneNotEmpty error. For information about deleting records from yourhosted
+    zone, see ChangeResourceRecordSets.
 schemes:
 - http
 produces:
