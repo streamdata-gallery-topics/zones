@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DnsManagementClient
-  description: The DNS Management Client.
+  title: Azure DNS API Zones List By Resource Group
+  description: Lists the DNS zones within a resource group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
