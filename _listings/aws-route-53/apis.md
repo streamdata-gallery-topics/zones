@@ -145,6 +145,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzonesbyname-dnsname-dnsname-hostedzoneid-hostedzoneid-maxitems-maxitems-get.md
+- name: AWS Route 53 API List Hosted Zones
+  description: 'To retrieve a list of your public and private hosted zones, send a
+    GETrequest to the /2013-04-01/hostedzone resource. The response to this requestincludes
+    a HostedZones child element for each hosted zone created by the currentAWS account.Amazon
+    Route 53 returns a maximum of 100 items in each response. If you have a lot of
+    hostedzones, you can use the maxitems parameter to list them in groups of up to
+    100.The response includes four values that help navigate from one group of maxitemshosted
+    zones to the next:                  MaxItems is the value specified for the maxitems
+    parameterin the request that produced the current response.If the value of IsTruncated
+    in the response is true, there are morehosted zones associated with the current
+    AWS account.                   NextMarker is the hosted zone ID of the next hosted
+    zone that isassociated with the current AWS account. If you want to list more
+    hosted zones, makeanother call to ListHostedZones, and specify the value of theNextMarker
+    element in the marker parameter. If IsTruncated is false, the NextMarker element
+    isomitted from the response.If you''re making the second or subsequent call to
+    ListHostedZones, theMarker element matches the value that you specified in themarker
+    parameter in the previous request.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: http:://{host}//
+  tags: Zones
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-delegationsetid-delegationsetid-marker-marker-maxitems-maxitems-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
