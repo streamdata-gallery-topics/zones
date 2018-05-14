@@ -2489,6 +2489,36 @@ x-common:
   url: https://twitter.com/EventbriteAPI
 - type: x-website
   url: http://developer.eventbrite.com/
+- type: x-apigee-console
+  url: https://api.apigee.com/v1/consoles/eventbrite/apidescription?format=internal&ver=1351170233000
+- type: x-authentication
+  url: https://developer.eventbrite.com/docs/auth/
+- type: x-base
+  url: https://www.eventbriteapi.com/
+- type: x-blog
+  url: http://blog.eventbrite.com/
+- type: x-blog-rss
+  url: http://blog.eventbrite.com/feed/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/eventbrite
+- type: x-developer
+  url: https://developer.eventbrite.com/
+- type: x-github
+  url: https://github.com/eventbrite
+- type: x-pricing
+  url: http://help.eventbrite.com/customer/en_us/portal/articles/428604
+- type: x-privacy
+  url: http://www.eventbrite.com/privacypolicy
+- type: x-sdksio
+  url: https://sdks.io/SDK/View/eventbrite
+- type: x-selfservice-registration
+  url: https://www.eventbrite.com/signup/?referrer=%2F%3Fshow_onboarding%3D1&user_type=prebuyer&user_type_sig=AH_ElWGNJ_zHaAxwjzt5jiCRmvPvNBsy6w
+- type: x-terms-of-service
+  url: http://www.eventbrite.com/tos
+- type: x-twitter
+  url: https://twitter.com/EventbriteAPI
+- type: x-website
+  url: http://developer.eventbrite.com/
 include: []
 maintainers:
 - FN: Kin Lane
