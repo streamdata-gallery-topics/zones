@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DnsManagementClient
-  description: The DNS Management Client.
+  title: Azure DNS API Zones Delete
+  description: 'Deletes a DNS zone. WARNING: All DNS records in the zone will also
+    be deleted. This operation cannot be undone.'
   version: 1.0.0
 host: management.azure.com
 basePath: /
