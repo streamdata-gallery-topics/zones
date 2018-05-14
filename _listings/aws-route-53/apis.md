@@ -62,22 +62,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-get.md
-- name: AWS Route 53 API Delete Hosted Zone
-  description: Deletes a hosted zone. Send a DELETE request to the /Amazon Route 53API
-    version/hostedzone/hosted zone ID             resource.ImportantDelete a hosted
-    zone only if there are no resource record sets other than the defaultSOA record
-    and NS resource record sets. If the hosted zone contains other resource recordsets,
-    delete them before deleting the hosted zone. If you try to delete a hosted zone
-    thatcontains other resource record sets, Amazon Route 53 denies your request with
-    aHostedZoneNotEmpty error. For information about deleting records from yourhosted
-    zone, see ChangeResourceRecordSets.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: http:://{host}//
-  tags: Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-delete.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
