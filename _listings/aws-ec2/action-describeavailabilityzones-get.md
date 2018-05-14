@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Availability Zones
   version: 1.0.0
+  description: Describes one or more of the Availability Zones that are available
+    to you.
 schemes:
 - http
 produces:
