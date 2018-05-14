@@ -1116,6 +1116,20 @@ x-common:
   url: http://data.gov/
 - type: x-wikipedia
   url: http://en.wikipedia.org/wiki/Data.gov
+- type: x-blog
+  url: https://www.data.gov/meta/
+- type: x-blog-rss
+  url: https://www.data.gov/feed/
+- type: x-developer
+  url: http://developer.data.gov/
+- type: x-signup
+  url: https://api.data.gov/signup/
+- type: x-twitter
+  url: https://twitter.com/usdatagov
+- type: x-website
+  url: http://data.gov/
+- type: x-wikipedia
+  url: http://en.wikipedia.org/wiki/Data.gov
 include: []
 maintainers:
 - FN: Kin Lane
