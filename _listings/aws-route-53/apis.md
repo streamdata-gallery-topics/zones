@@ -41,17 +41,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-post.md
-- name: AWS Route 53 API Get Hosted Zone
-  description: Retrieves the delegation set for a hosted zone, including the four
-    name serversassigned to the hosted zone. Send a GET request to the /Amazon Route
-    53 APIversion/hostedzone/hosted zone ID             resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: http:://{host}//
-  tags: Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/2013-04-01-hostedzone-id-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
