@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Route 53 API
+  title: AWS Route 53 API Update Hosted Zone Comment
   version: 1.0.0
+  description: Updates the hosted zone comment. Send a POST request to the/2013-04-01/hostedzone/hosted
+    zone ID             resource.
 schemes:
 - http
 produces:
