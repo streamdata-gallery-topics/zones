@@ -1424,6 +1424,24 @@ x-common:
   url: https://aws.amazon.com/route53/sla/
 - type: x-website
   url: https://aws.amazon.com/route53/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/Route53/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/route53/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=87
+- type: x-pricing
+  url: https://aws.amazon.com/route53/pricing/
+- type: x-registrar-policies
+  url: https://aws.amazon.com/route53/amazon-registrar-policies/
+- type: x-service-health
+  url: http://status.aws.amazon.com/
+- type: x-service-level-agreement
+  url: https://aws.amazon.com/route53/sla
+- type: x-sla
+  url: https://aws.amazon.com/route53/sla/
+- type: x-website
+  url: https://aws.amazon.com/route53/
 include: []
 maintainers:
 - FN: Kin Lane
