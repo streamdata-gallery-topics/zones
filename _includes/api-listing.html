@@ -3,6 +3,7 @@
     {% if item.swagger %}
       {% if item.swagger == "2.0" %}
 		{% if item.x-complete == 0 %}
+	        
 	        {% assign api_name = "" %}
 	        {% assign api_description = "" %}
 	        {% assign api_image = "" %}
@@ -20,7 +21,7 @@
 	               {% if entry.name == item.x-collection-name %}
 	
 	                 {% assign api_name = entry.name %}
-	                 {% assign api_slug = entry.x-api-slug %}
+	                 {% assign api_slug = entry.x-slug %}
 	                 {% assign api_description = entry.description %}
 	                 {% assign api_image = entry.image %}
 	                 {% assign api_json_url = entry.url %}
