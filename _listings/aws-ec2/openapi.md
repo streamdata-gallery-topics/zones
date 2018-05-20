@@ -1,5 +1,6 @@
 ---
 swagger: "2.0"
+x-collection-name: AWS EC2
 info:
   title: AWS EC2 API
   version: 1.0.0

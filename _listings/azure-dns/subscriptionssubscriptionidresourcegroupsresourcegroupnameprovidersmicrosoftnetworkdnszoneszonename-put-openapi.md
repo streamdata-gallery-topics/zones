@@ -1,5 +1,6 @@
 ---
 swagger: "2.0"
+x-collection-name: Azure DNS
 info:
   title: Azure DNS API Zones Create Or Update
   description: Creates or updates a DNS zone. Does not modify DNS records within the

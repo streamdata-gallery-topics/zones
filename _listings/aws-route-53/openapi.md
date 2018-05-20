@@ -1,5 +1,6 @@
 ---
 swagger: "2.0"
+x-collection-name: AWS Route 53
 info:
   title: AWS Route 53 API
   version: 1.0.0

@@ -1,5 +1,6 @@
 ---
 swagger: "2.0"
+x-collection-name: Azure DNS
 info:
   title: Azure DNS API Zones List By Resource Group
   description: Lists the DNS zones within a resource group.

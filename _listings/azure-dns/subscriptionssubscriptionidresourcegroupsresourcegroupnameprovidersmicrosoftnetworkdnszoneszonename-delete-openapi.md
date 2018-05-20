@@ -1,5 +1,6 @@
 ---
 swagger: "2.0"
+x-collection-name: Azure DNS
 info:
   title: Azure DNS API Zones Delete
   description: 'Deletes a DNS zone. WARNING: All DNS records in the zone will also
