@@ -5,7 +5,7 @@
       </div>
       <div class="APIDetailHeader__right">
          <h1 class="APIDetailHeader__title">{{ api_name }} - {{ api_path_summary }}</h1>
-         <h2 class="APIDetailHeader__subtitle">{{ api_path_description }}</h2>
+         <p>{{ api_path_description }}</p>
          <div class="APIDetailHeader__dateContainer">
             <p class="APIDetailHeader__dateCallout">Posted on:</p>
             <p class="APIDetailHeader__date">{{ apis_json.modified | date: %b %y" }}</p>
