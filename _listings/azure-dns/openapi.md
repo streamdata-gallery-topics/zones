@@ -1,6 +1,7 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure DNS
+x-complete: 1
 info:
   title: DnsManagementClient
   description: the-dns-management-client

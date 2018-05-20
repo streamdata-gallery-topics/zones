@@ -1,6 +1,7 @@
 ---
 swagger: "2.0"
 x-collection-name: AWS Route 53
+x-complete: 0
 info:
   title: AWS Route 53 API Update Hosted Zone Comment
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 swagger: "2.0"
 x-collection-name: AWS CloudHSM
+x-complete: 0
 info:
   title: AWS CloudHSM API List Available Zones
   version: 1.0.0

@@ -1,6 +1,7 @@
 ---
 swagger: "2.0"
 x-collection-name: Data.Gov
+x-complete: 0
 info:
   title: Data.gov API Get Spatial Zones Suggest
   description: Suggest geospatial zones

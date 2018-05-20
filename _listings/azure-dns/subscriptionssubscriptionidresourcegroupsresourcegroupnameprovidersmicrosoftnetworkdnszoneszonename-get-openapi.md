@@ -1,6 +1,7 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure DNS
+x-complete: 0
 info:
   title: Azure DNS API Zones Get
   description: Gets a DNS zone. Retrieves the zone properties, but not the record
