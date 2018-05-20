@@ -30,8 +30,8 @@ paths:
           description: OK
       tags:
       - Spatial
-      - ' Zones'
-      - ' Suggest'
+      - Zones
+      - Suggest
   /spatial/zones/{ids}:
     get:
       summary: Get Spatial Zones S
@@ -46,6 +46,6 @@ paths:
           description: OK
       tags:
       - Spatial
-      - ' Zones'
-      - ' S'
+      - Zones
+      - S
 ---

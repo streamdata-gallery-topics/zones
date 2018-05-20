@@ -30,6 +30,6 @@ paths:
           description: OK
       tags:
       - Spatial
-      - ' Zones'
-      - ' Suggest'
+      - Zones
+      - Suggest
 ---
