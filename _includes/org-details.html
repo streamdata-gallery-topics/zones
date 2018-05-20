@@ -1,6 +1,6 @@
 {% assign api_slug = page.name | replace: ' ','-' | replace: '/','' | replace: '&','-' | replace: '=','-' | replace: '{','-' | replace: '}','-' | replace: '?','-' | replace: '_','-' | replace: '--','-' | downcase %}
 
-<section class="APIDetailHeader  APIDetailHeader--extra-top-padding ">
+<section class="APIDetailHeader">
    <div class="APIDetailHeader__container">
       <div class="APIDetailHeader__left">
          <img src="{{ apis_json.image }}" alt="{{ page.info.title }}" class="APIDetailHeader__image">
