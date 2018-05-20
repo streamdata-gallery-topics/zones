@@ -21,13 +21,14 @@ paths:
       description: Creates or updates a DNS zone. Does not modify DNS records within
         the zone.
       operationId: Zones_CreateOrUpdate
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-put
       parameters:
       - in: header
         name: If-Match
         description: The etag of the DNS zone
       - in: header
         name: If-None-Match
-        description: Set to '*' to allow a new DNS zone to be created, but to prevent
+        description: Set to * to allow a new DNS zone to be created, but to prevent
           updating an existing zone
       - in: query
         name: No Name

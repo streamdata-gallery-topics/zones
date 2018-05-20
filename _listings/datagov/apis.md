@@ -1,5 +1,6 @@
 ---
 name: Data.Gov
+x-slug: datagov
 description: data.gov is a U.S. government website launched in late May 2009 by the
   then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra.
   According to its website, The purpose of data.gov is to increase public access to
@@ -17,6 +18,7 @@ url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_l
 specificationVersion: "0.14"
 apis:
 - name: Data.gov API Get Spatial Zones Suggest
+  x-api-slug: datagov-api
   description: Suggest geospatial zones
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
@@ -28,6 +30,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonessuggest-get-openapi.md
 - name: Data.gov API Get Spatial Zones S
+  x-api-slug: datagov-api
   description: Fetch a zone list as GeoJSON
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
@@ -39,6 +42,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonesids-get-openapi.md
 - name: Data.gov API
+  x-api-slug: datagov-api
   description: data.gov is a U.S. government website launched in late May 2009 by
     the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra.
     According to its website, The purpose of data.gov is to increase public access

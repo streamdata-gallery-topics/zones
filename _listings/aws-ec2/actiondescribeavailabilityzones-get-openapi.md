@@ -19,6 +19,7 @@ paths:
       description: Describes one or more of the Availability Zones that are available
         to you.
       operationId: describeavailabilityzones
+      x-api-path-slug: actiondescribeavailabilityzones-get
       parameters:
       - in: query
         name: DryRun

@@ -20,13 +20,14 @@ paths:
       description: Creates or updates a DNS zone. Does not modify DNS records within
         the zone.
       operationId: Zones_CreateOrUpdate
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-put
       parameters:
       - in: header
         name: If-Match
         description: The etag of the DNS zone
       - in: header
         name: If-None-Match
-        description: Set to '*' to allow a new DNS zone to be created, but to prevent
+        description: Set to * to allow a new DNS zone to be created, but to prevent
           updating an existing zone
       - in: query
         name: No Name
@@ -51,6 +52,7 @@ paths:
       description: 'Deletes a DNS zone. WARNING: All DNS records in the zone will
         also be deleted. This operation cannot be undone.'
       operationId: Zones_Delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-delete
       parameters:
       - in: header
         name: If-Match
@@ -73,6 +75,7 @@ paths:
       description: Gets a DNS zone. Retrieves the zone properties, but not the record
         sets within the zone.
       operationId: Zones_Get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-get
       parameters:
       - in: query
         name: No Name
@@ -92,6 +95,7 @@ paths:
       summary: Zones List By Resource Group
       description: Lists the DNS zones within a resource group.
       operationId: Zones_ListByResourceGroup
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszones-get
       parameters:
       - in: query
         name: $top
@@ -111,6 +115,7 @@ paths:
       summary: Zones List
       description: Lists the DNS zones in all resource groups in a subscription.
       operationId: Zones_List
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftnetworkdnszones-get
       parameters:
       - in: query
         name: $top

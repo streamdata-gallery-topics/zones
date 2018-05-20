@@ -16,6 +16,7 @@ paths:
       summary: List Available Zones
       description: Lists the Availability Zones that have available AWS CloudHSM capacity.
       operationId: listAvailableZones
+      x-api-path-slug: actionlistavailablezones-get
       parameters:
       - in: query
         name: AZList

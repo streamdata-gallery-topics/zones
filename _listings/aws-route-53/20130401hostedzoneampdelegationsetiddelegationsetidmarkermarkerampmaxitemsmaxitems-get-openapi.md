@@ -53,6 +53,7 @@ paths:
         set, specify anoptional DelegationSetId, and Amazon Route 53 would assign
         those 4 NS records for the zone, instead ofallotting a new one.
       operationId: createhostedzone
+      x-api-path-slug: 20130401hostedzone-post
       parameters:
       - in: body
         name: CallerReference
@@ -116,6 +117,7 @@ paths:
         your request with aHostedZoneNotEmpty error. For information about deleting
         records from yourhosted zone, see ChangeResourceRecordSets.
       operationId: deletehostedzone
+      x-api-path-slug: 20130401hostedzoneid-delete
       parameters:
       - in: path
         name: Id
@@ -132,6 +134,7 @@ paths:
         name serversassigned to the hosted zone. Send a GET request to the /Amazon
         Route 53 APIversion/hostedzone/hosted zone ID             resource.
       operationId: gethostedzone
+      x-api-path-slug: 20130401hostedzoneid-get
       parameters:
       - in: path
         name: Id
@@ -149,6 +152,7 @@ paths:
       description: Retrieves a count of all your hosted zones. Send a GET request
         to the/2013-04-01/hostedzonecount resource.
       operationId: gethostedzonecount
+      x-api-path-slug: 20130401hostedzonecount-get
       responses:
         200:
           description: OK
@@ -175,10 +179,11 @@ paths:
         element matches the value that you specified in themarker parameter in the
         previous request.'
       operationId: listhostedzones
+      x-api-path-slug: 20130401hostedzoneampdelegationsetiddelegationsetidmarkermarkerampmaxitemsmaxitems-get
       parameters:
       - in: path
         name: delegationsetid
-        description: "If you're using reusable delegation sets and you want to list
+        description: "If youre using reusable delegation sets and you want to list
           all of the hosted zones that are associated \t\t\twith a reusable delegation
           set, specify the ID of that reusable delegation set"
         type: string

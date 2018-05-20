@@ -59,6 +59,7 @@ paths:
         set, specify anoptional DelegationSetId, and Amazon Route 53 would assign
         those 4 NS records for the zone, instead ofallotting a new one.
       operationId: createhostedzone
+      x-api-path-slug: 20130401hostedzone-post
       parameters:
       - in: body
         name: CallerReference

@@ -19,6 +19,7 @@ paths:
       summary: Get Spatial Zones Suggest
       description: Suggest geospatial zones
       operationId: getSpatialZonesSuggest
+      x-api-path-slug: spatialzonessuggest-get
       parameters:
       - in: query
         name: q

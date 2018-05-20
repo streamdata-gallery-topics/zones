@@ -19,6 +19,7 @@ paths:
       summary: Get Spatial Zones Suggest
       description: Suggest geospatial zones
       operationId: getSpatialZonesSuggest
+      x-api-path-slug: spatialzonessuggest-get
       parameters:
       - in: query
         name: q
@@ -38,6 +39,7 @@ paths:
       summary: Get Spatial Zones S
       description: Fetch a zone list as GeoJSON
       operationId: getSpatialZonesS
+      x-api-path-slug: spatialzonesids-get
       parameters:
       - in: path
         name: ids

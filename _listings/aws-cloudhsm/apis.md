@@ -1,5 +1,6 @@
 ---
 name: AWS CloudHSM
+x-slug: aws-cloudhsm
 description: The AWS CloudHSM service helps you meet corporate, contractual and regulatory
   compliance requirements for data security by using dedicated Hardware Security Module
   (HSM) appliances within the AWS cloud. With CloudHSM, you control the encryption
@@ -33,6 +34,7 @@ url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_l
 specificationVersion: "0.14"
 apis:
 - name: AWS CloudHSM API List Available Zones
+  x-api-slug: aws-cloudhsm-api
   description: Lists the Availability Zones that have available AWS CloudHSM capacity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
@@ -42,6 +44,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/actionlistavailablezones-get-openapi.md
 - name: AWS CloudHSM API
+  x-api-slug: aws-cloudhsm-api
   description: The AWS CloudHSM service helps you meet corporate, contractual and
     regulatory compliance requirements for data security by using dedicated Hardware
     Security Module (HSM) appliances within the AWS cloud. With CloudHSM, you control

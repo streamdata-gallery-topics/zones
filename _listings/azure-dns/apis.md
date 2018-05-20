@@ -1,5 +1,6 @@
 ---
 name: Azure DNS
+x-slug: azure-dns
 description: Azure DNS lets you host your DNS domains alongside your Azure apps and
   manage DNS records by using your existing Azure subscription. Microsoft&rsquo;s
   global network of name servers has the reach, scale, and redundancy to ensure ultra-fast
@@ -15,6 +16,7 @@ url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_l
 specificationVersion: "0.14"
 apis:
 - name: Azure DNS API Zones Create Or Update
+  x-api-slug: azure-dns-api
   description: Creates or updates a DNS zone. Does not modify DNS records within the
     zone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
@@ -25,6 +27,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-put-openapi.md
 - name: Azure DNS API Zones Delete
+  x-api-slug: azure-dns-api
   description: 'Deletes a DNS zone. WARNING: All DNS records in the zone will also
     be deleted. This operation cannot be undone.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
@@ -37,6 +40,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-delete-openapi.md
 - name: Azure DNS API Zones Get
+  x-api-slug: azure-dns-api
   description: Gets a DNS zone. Retrieves the zone properties, but not the record
     sets within the zone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
@@ -49,6 +53,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-get-openapi.md
 - name: Azure DNS API Zones List By Resource Group
+  x-api-slug: azure-dns-api
   description: Lists the DNS zones within a resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
   humanURL: https://azure.microsoft.com/en-us/services/dns/
@@ -60,6 +65,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszones-get-openapi.md
 - name: Azure DNS API Zones List
+  x-api-slug: azure-dns-api
   description: Lists the DNS zones in all resource groups in a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
   humanURL: https://azure.microsoft.com/en-us/services/dns/
@@ -71,6 +77,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidprovidersmicrosoftnetworkdnszones-get-openapi.md
 - name: Azure DNS API
+  x-api-slug: azure-dns-api
   description: Azure DNS lets you host your DNS domains alongside your Azure apps
     and manage DNS records by using your existing Azure subscription. Microsoft&rsquo;s
     global network of name servers has the reach, scale, and redundancy to ensure

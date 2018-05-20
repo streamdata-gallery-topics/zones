@@ -45,6 +45,7 @@ paths:
         set, specify anoptional DelegationSetId, and Amazon Route 53 would assign
         those 4 NS records for the zone, instead ofallotting a new one.
       operationId: createhostedzone
+      x-api-path-slug: 20130401hostedzone-post
       parameters:
       - in: body
         name: CallerReference
@@ -108,6 +109,7 @@ paths:
         your request with aHostedZoneNotEmpty error. For information about deleting
         records from yourhosted zone, see ChangeResourceRecordSets.
       operationId: deletehostedzone
+      x-api-path-slug: 20130401hostedzoneid-delete
       parameters:
       - in: path
         name: Id

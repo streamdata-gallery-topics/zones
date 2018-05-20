@@ -1,5 +1,6 @@
 ---
 name: AWS EC2
+x-slug: aws-ec2
 description: Amazon Elastic Compute Cloud is a web service that provides resizable
   compute capacity in the cloud. It is designed to make web-scale cloud computing
   easier for developers. Amazon EC2s simple web service interface allows you to obtain
@@ -21,6 +22,7 @@ url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_l
 specificationVersion: "0.14"
 apis:
 - name: AWS EC2 API Describe Availability Zones
+  x-api-slug: aws-ec2-api
   description: Describes one or more of the Availability Zones that are available
     to you.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
@@ -31,6 +33,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-ec2/actiondescribeavailabilityzones-get-openapi.md
 - name: AWS EC2 API
+  x-api-slug: aws-ec2-api
   description: Amazon Elastic Compute Cloud is a web service that provides resizable
     compute capacity in the cloud. It is designed to make web-scale cloud computing
     easier for developers. Amazon EC2s simple web service interface allows you to
