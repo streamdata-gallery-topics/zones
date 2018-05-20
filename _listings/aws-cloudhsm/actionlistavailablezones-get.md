@@ -1,0 +1,30 @@
+---
+swagger: "2.0"
+info:
+  title: AWS CloudHSM API List Available Zones
+  version: 1.0.0
+  description: Lists the Availability Zones that have available AWS CloudHSM capacity.
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=ListAvailableZones:
+    get:
+      summary: List Available Zones
+      description: Lists the Availability Zones that have available AWS CloudHSM capacity.
+      operationId: listAvailableZones
+      parameters:
+      - in: query
+        name: AZList
+        description: The list of Availability Zones that have available AWS CloudHSM
+          capacity
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Zones
+---
