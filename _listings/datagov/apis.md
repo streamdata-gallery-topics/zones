@@ -26,7 +26,7 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonessuggest-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonessuggest-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonessuggest-get-openapi.md
 - name: Data.gov API Get Spatial Zones S
   description: Fetch a zone list as GeoJSON
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
@@ -37,7 +37,7 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonesids-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonesids-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/spatialzonesids-get-openapi.md
 - name: Data.gov API
   description: data.gov is a U.S. government website launched in late May 2009 by
     the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra.
@@ -52,7 +52,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/datagov-api-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/openapi.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/

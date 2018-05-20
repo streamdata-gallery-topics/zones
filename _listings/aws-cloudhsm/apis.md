@@ -40,7 +40,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/actionlistavailablezones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/actionlistavailablezones-get-openapi.md
 - name: AWS CloudHSM API
   description: The AWS CloudHSM service helps you meet corporate, contractual and
     regulatory compliance requirements for data security by using dedicated Hardware
@@ -72,7 +72,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/aws-cloudhsm-api-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/openapi.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/

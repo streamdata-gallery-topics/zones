@@ -23,7 +23,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-put-openapi.md
 - name: Azure DNS API Zones Delete
   description: 'Deletes a DNS zone. WARNING: All DNS records in the zone will also
     be deleted. This operation cannot be undone.'
@@ -35,7 +35,7 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-delete-openapi.md
 - name: Azure DNS API Zones Get
   description: Gets a DNS zone. Retrieves the zone properties, but not the record
     sets within the zone.
@@ -47,7 +47,7 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszoneszonename-get-openapi.md
 - name: Azure DNS API Zones List By Resource Group
   description: Lists the DNS zones within a resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
@@ -58,7 +58,7 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszones-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkdnszones-get-openapi.md
 - name: Azure DNS API Zones List
   description: Lists the DNS zones in all resource groups in a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
@@ -69,7 +69,7 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidprovidersmicrosoftnetworkdnszones-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidprovidersmicrosoftnetworkdnszones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/subscriptionssubscriptionidprovidersmicrosoftnetworkdnszones-get-openapi.md
 - name: Azure DNS API
   description: Azure DNS lets you host your DNS domains alongside your Azure apps
     and manage DNS records by using your existing Azure subscription. Microsoft&rsquo;s
@@ -82,7 +82,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/azure-dns-api-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/openapi.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/dns/

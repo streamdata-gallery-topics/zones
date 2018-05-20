@@ -29,7 +29,7 @@ apis:
   tags: Availability Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-ec2/actiondescribeavailabilityzones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-ec2/actiondescribeavailabilityzones-get-openapi.md
 - name: AWS EC2 API
   description: Amazon Elastic Compute Cloud is a web service that provides resizable
     compute capacity in the cloud. It is designed to make web-scale cloud computing
@@ -48,7 +48,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-ec2/aws-ec2-api-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-ec2/openapi.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/

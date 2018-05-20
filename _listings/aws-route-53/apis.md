@@ -58,7 +58,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzone-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzone-post-openapi.md
 - name: AWS Route 53 API Delete Hosted Zone
   description: Deletes a hosted zone. Send a DELETE request to the /Amazon Route 53API
     version/hostedzone/hosted zone ID             resource.ImportantDelete a hosted
@@ -74,7 +74,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-delete-openapi.md
 - name: AWS Route 53 API Get Hosted Zone
   description: Retrieves the delegation set for a hosted zone, including the four
     name serversassigned to the hosted zone. Send a GET request to the /Amazon Route
@@ -85,7 +85,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-get-openapi.md
 - name: AWS Route 53 API Get Hosted Zone Count
   description: Retrieves a count of all your hosted zones. Send a GET request to the/2013-04-01/hostedzonecount
     resource.
@@ -95,7 +95,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzonecount-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzonecount-get-openapi.md
 - name: AWS Route 53 API List Hosted Zones
   description: 'To retrieve a list of your public and private hosted zones, send a
     GETrequest to the /2013-04-01/hostedzone resource. The response to this requestincludes
@@ -119,7 +119,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneampdelegationsetiddelegationsetidmarkermarkerampmaxitemsmaxitems-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneampdelegationsetiddelegationsetidmarkermarkerampmaxitemsmaxitems-get-openapi.md
 - name: AWS Route 53 API List Hosted Zones By Name
   description: 'Retrieves a list of your hosted zones in lexicographic order. Send
     a GETrequest to the /2013-04-01/hostedzonesbyname resource. The response includes
@@ -156,7 +156,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzonesbynamednsnamednsnameamphostedzoneidhostedzoneidampmaxitemsmaxitems-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzonesbynamednsnamednsnameamphostedzoneidhostedzoneidampmaxitemsmaxitems-get-openapi.md
 - name: AWS Route 53 API Update Hosted Zone Comment
   description: Updates the hosted zone comment. Send a POST request to the/2013-04-01/hostedzone/hosted
     zone ID             resource.
@@ -166,7 +166,7 @@ apis:
   tags: Hosted Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-post-openapi.md
 - name: AWS Route 53 API
   description: Amazon Route 53 is a highly available and scalable cloud Domain Name
     System (DNS) web service. It is designed to give developers and businesses an
@@ -194,7 +194,7 @@ apis:
   tags: Zones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/aws-route-53-api-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/openapi.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
