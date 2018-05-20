@@ -12,7 +12,7 @@ layout: default
 
 <section class="taggedLinkCards">
 
-   {% if page.info.title %}
+   {% if page.info.title or page.name %}
         <!--nothing-->
    {% else %}
         {% include api-tag-filter.html %}
