@@ -7,7 +7,7 @@
       </div>
       <div class="APIDetailHeader__right">
          <h1 class="APIDetailHeader__title">{{ page.name }}</h1>
-         <h2 class="">{{ page.description | replace: "???","'" }}</h2>
+         <h2 class="APIDetailHeader__subtitle">{{ page.description | replace: "???","'" }}</h2>
          <div class="APIDetailHeader__dateContainer" style="padding-top:10px;">
             <p class="APIDetailHeader__dateCallout">Posted on:</p>
             <p class="APIDetailHeader__date">{{ page.modified | date: %b %y" }}</p>
@@ -144,7 +144,7 @@
                     <tr>
                       <td width="5%" align="center">&rarr;</td>
                       <td>
-                        <a href="/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }}</a></td>
+                        <a href="/listings/{{ api_slug }}/{{ api_path_slug }}/" target="_blank">{{ api_path_summary }} - {{ api_path_description }}</a>
                       </td>
                       <td width="8%" align="center">({{ verb | upcase }})</td>
                       <td>{{ path_name }}</td>
