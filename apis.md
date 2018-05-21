@@ -1,5 +1,5 @@
 ---
-name: Streamdata Gallery - Zones
+name: Streadata.io API Gallery - Zones
 description: This is a repository of zones APIs, self-contained as a Github repository,
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/zones.png
@@ -18,8 +18,14 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-ec2/apis.yaml
 - name: Data.Gov
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/datagov/apis.yaml
+- name: CloudFlare
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/cloudflare/apis.yaml
+- name: Zerigo
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/zerigo/apis.yaml
 - name: Azure DNS
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/apis.yaml
+- name: Eventbrite
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/eventbrite/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
