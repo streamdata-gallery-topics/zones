@@ -64,9 +64,8 @@ paths:
       parameters:
       - in: body
         name: CallerReference
-        description: "A unique string that identifies the request and that allows
-          failed\t\t\tCreateHostedZone requests to be retried without the risk of
-          executing the\t\t\toperation twice"
+        description: A unique string that identifies the request and that allows failedCreateHostedZone
+          requests to be retried without the risk of executing theoperation twice
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -81,9 +80,9 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: DelegationSetId
-        description: "If you want to associate a reusable delegation set with this
-          hosted zone, the ID that\t\t\tAmazon Route 53 assigned to the reusable delegation
-          set when you created it"
+        description: If you want to associate a reusable delegation set with this
+          hosted zone, the ID thatAmazon Route 53 assigned to the reusable delegation
+          set when you created it
         schema:
           $ref: '#/definitions/holder'
       - in: body

@@ -26,10 +26,10 @@ description: The AWS CloudHSM service helps you meet corporate, contractual and 
   secure and durable key storage to your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Zones
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/apis.md
 specificationVersion: "0.14"
 apis:

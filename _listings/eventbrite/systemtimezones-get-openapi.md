@@ -8,8 +8,8 @@ info:
     Returns a paginated response with a key of timezones,
     containing a list of timezones.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:

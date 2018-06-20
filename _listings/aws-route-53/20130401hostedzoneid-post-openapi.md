@@ -44,9 +44,8 @@ paths:
       parameters:
       - in: body
         name: CallerReference
-        description: "A unique string that identifies the request and that allows
-          failed\t\t\tCreateHostedZone requests to be retried without the risk of
-          executing the\t\t\toperation twice"
+        description: A unique string that identifies the request and that allows failedCreateHostedZone
+          requests to be retried without the risk of executing theoperation twice
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -61,9 +60,9 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: DelegationSetId
-        description: "If you want to associate a reusable delegation set with this
-          hosted zone, the ID that\t\t\tAmazon Route 53 assigned to the reusable delegation
-          set when you created it"
+        description: If you want to associate a reusable delegation set with this
+          hosted zone, the ID thatAmazon Route 53 assigned to the reusable delegation
+          set when you created it
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -125,8 +124,8 @@ paths:
       parameters:
       - in: path
         name: Id
-        description: "The ID of the hosted zone for which you want to get a list of
-          the name servers in the\t\t\tdelegation set"
+        description: The ID of the hosted zone for which you want to get a list of
+          the name servers in thedelegation set
         type: string
       responses:
         200:
@@ -196,9 +195,9 @@ paths:
       parameters:
       - in: path
         name: delegationsetid
-        description: "If youre using reusable delegation sets and you want to list
-          all of the hosted zones that are associated \t\t\twith a reusable delegation
-          set, specify the ID of that reusable delegation set"
+        description: If youre using reusable delegation sets and you want to list
+          all of the hosted zones that are associated with a reusable delegation set,
+          specify the ID of that reusable delegation set
         type: string
       responses:
         200:
@@ -244,9 +243,9 @@ paths:
       parameters:
       - in: path
         name: dnsname
-        description: "(Optional) For your first request to ListHostedZonesByName,
-          include the\t\t\t\tdnsname parameter only if you want to specify the name
-          of the first hosted zone\t\t\tin the response"
+        description: (Optional) For your first request to ListHostedZonesByName, include
+          thednsname parameter only if you want to specify the name of the first hosted
+          zonein the response
         type: string
       responses:
         200:
