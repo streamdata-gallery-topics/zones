@@ -15,129 +15,27 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: HPE OneSphere API - Get Zones
-  x-api-slug: zones-get
-  description: Returns zones.
+- name: HPE OneSphere API - Get Zone Types
+  x-api-slug: zonetypes-get
+  description: Returns all zone types.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
   humanURL: http://HPE.com
   baseURL: https://deic02-hpe.hpeonesphere.com//rest
   tags: Enterprise, Cloud, Service API, Relative Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zones-get-openapi.md
-- name: HPE OneSphere API - Post Zones
-  x-api-slug: zones-post
-  description: Creates a new zone
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonetypes-get-openapi.md
+- name: HPE OneSphere API - Get Zone Types Resource Profiles
+  x-api-slug: zonetypesidresourceprofiles-get
+  description: Returns all available resourceProfile for **vcenter zone type**. It
+    requires the **administrator** role.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
   humanURL: http://HPE.com
   baseURL: https://deic02-hpe.hpeonesphere.com//rest
   tags: Enterprise, Cloud, Service API, Relative Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zones-post-openapi.md
-- name: HPE OneSphere API - Delete Zones
-  x-api-slug: zonesid-delete
-  description: Deletes a zone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesid-delete-openapi.md
-- name: HPE OneSphere API - Get Zones
-  x-api-slug: zonesid-get
-  description: Returns a zone based on its id.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesid-get-openapi.md
-- name: HPE OneSphere API - Patch Zones
-  x-api-slug: zonesid-patch
-  description: Updates a zone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesid-patch-openapi.md
-- name: HPE OneSphere API - Post Zones Actions
-  x-api-slug: zonesidactions-post
-  description: Peforms an action to the zone. It requires the **administrator** role.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidactions-post-openapi.md
-- name: HPE OneSphere API - Get Zones Appliance Image
-  x-api-slug: zonesidapplianceimage-get
-  description: Generates appliance-image url for the zone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidapplianceimage-get-openapi.md
-- name: HPE OneSphere API - Get Zones Connections
-  x-api-slug: zonesidconnections-get
-  description: Gets the list of connection for the zone. It requires the **administrator**
-    role.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidconnections-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidconnections-get-openapi.md
-- name: HPE OneSphere API - Post Zones Connections
-  x-api-slug: zonesidconnections-post
-  description: Peforms an action to the zone. It requires the **administrator** role.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidconnections-post-openapi.md
-- name: HPE OneSphere API - Delete Zones Connections Uu
-  x-api-slug: zonesidconnectionsuuid-delete
-  description: Deletes a connection instance of the zone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidconnectionsuuid-delete-openapi.md
-- name: HPE OneSphere API - Patch Zones Connections Uu
-  x-api-slug: zonesidconnectionsuuid-patch
-  description: Updates a connection of the zone.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidconnectionsuuid-patch-openapi.md
-- name: HPE OneSphere API - Get Zones Task Status
-  x-api-slug: zonesidtaskstatus-get
-  description: Returns the status of the task for the zone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonesidtaskstatus-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/hewlett-packard-enterprise-hpe/zonetypesidresourceprofiles-get-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

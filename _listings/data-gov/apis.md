@@ -17,32 +17,17 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Data.gov API - Get Spatial Zones Suggest
-  x-api-slug: spatialzonessuggest-get
-  description: Suggest geospatial zones
+- name: Data.gov API - Get Spatial Zone
+  x-api-slug: spatialzoneid-get
+  description: Fetch a zone
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
     Data Provider, API Provider, Profiles, General Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/spatialzonessuggest-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/spatialzonessuggest-get-openapi.md
-- name: Data.gov API - Get Spatial Zones S
-  x-api-slug: spatialzonesids-get
-  description: Fetch a zone list as GeoJSON
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
-  humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3/
-  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
-    Data Provider, API Provider, Profiles, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/spatialzonesids-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/spatialzonesids-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/spatialzoneid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://danske.bank.api.gallery.streamdata.io

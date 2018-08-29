@@ -11,16 +11,46 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Rebilly - Retrieve a list of shipping zones
-  x-api-slug: shippingzones-get
-  description: Retrieve a list of shipping zones
+- name: Rebilly - Create a Shipping Zone
+  x-api-slug: shippingzones-post
+  description: Create a Shipping Zone
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
   humanURL: https://www.rebilly.com
   baseURL: https://api.rebilly.com//v2.1
   tags: Billing, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/shippingzones-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/shippingzones-post-openapi.md
+- name: Rebilly - Delete a shipping zone
+  x-api-slug: shippingzonesid-delete
+  description: Delete a shipping zone with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/shippingzonesid-delete-openapi.md
+- name: Rebilly - Retrieve a shipping zone
+  x-api-slug: shippingzonesid-get
+  description: Retrieve a shipping zone with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/shippingzonesid-get-openapi.md
+- name: Rebilly - Create a shipping zone with predefined ID
+  x-api-slug: shippingzonesid-put
+  description: Create a shipping zone with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/shippingzonesid-put-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

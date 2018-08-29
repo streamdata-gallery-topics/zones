@@ -20,20 +20,63 @@ consumes:
 - application/json
 paths:
   /shipping-zones:
-    get:
-      summary: Retrieve a list of shipping zones
-      description: Retrieve a list of shipping zones
-      operationId: shipping_zones.get
-      x-api-path-slug: shippingzones-get
+    post:
+      summary: Create a Shipping Zone
+      description: Create a Shipping Zone
+      operationId: shipping_zones.post
+      x-api-path-slug: shippingzones-post
       parameters:
-      - in: query
-        name: No Name
+      - in: body
+        name: body
+        description: Shipping Zone resource
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shipping
+      - Zone
+  /shipping-zones/{id}:
+    delete:
+      summary: Delete a shipping zone
+      description: Delete a shipping zone with predefined identifier string
+      operationId: shipping_zones.id.delete
+      x-api-path-slug: shippingzonesid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shipping
+      - Zone
+    get:
+      summary: Retrieve a shipping zone
+      description: Retrieve a shipping zone with specified identifier string
+      operationId: shipping_zones.id.get
+      x-api-path-slug: shippingzonesid-get
       responses:
         200:
           description: OK
       tags:
       - Retrieve
-      - List
-      - Of
       - Shipping
-      - Zones
+      - Zone
+    put:
+      summary: Create a shipping zone with predefined ID
+      description: Create a shipping zone with predefined identifier string
+      operationId: shipping_zones.id.put
+      x-api-path-slug: shippingzonesid-put
+      parameters:
+      - in: body
+        name: body
+        description: Shipping zone resource
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shipping
+      - Zone
+      - Predefined
+      - ID

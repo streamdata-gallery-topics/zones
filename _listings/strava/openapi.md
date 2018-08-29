@@ -14,18 +14,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /athlete/zones:
-    get:
-      summary: Get Zones
-      description: Returns the the authenticated athlete's heart rate and power zones.
-      operationId: getLoggedInAthleteZones
-      x-api-path-slug: athletezones-get
-      responses:
-        200:
-          description: Successful response
-      tags:
-      - Sports
-      - Zones
   /activities/{id}/zones:
     get:
       summary: Get Activity Zones

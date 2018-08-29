@@ -23,32 +23,17 @@
 			]
 		},
 		{
-			"name": "CloudFlare",
-			"x-api-slug": "cloudflare",
-			"description": "Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg",
-			"humanURL": "https://www.cloudflare.com",
-			"baseURL": "https:///",
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
 			"tags": "Zones",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/cloudflare/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Shopify",
-			"x-api-slug": "shopify",
-			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
-			"humanURL": "https://www.shopify.com/",
-			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
-			"tags": "Zones",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/shopify/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/here/openapi.md"
 				}
 			]
 		},
@@ -113,17 +98,17 @@
 			]
 		},
 		{
-			"name": "Azure DNS",
-			"x-api-slug": "azure-dns",
-			"description": "Azure DNS lets you host your DNS domains alongside your Azure apps and manage DNS records by using your existing Azure subscription. Microsoft&rsquo;s global network of name servers has the reach, scale, and redundancy to ensure ultra-fast DNS responses and ultra-high availability for your domains. With Azure DNS, you can be sure your DNS will always be fast and available.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png",
-			"humanURL": "https://azure.microsoft.com/en-us/services/dns/",
-			"baseURL": "://management.azure.com//",
+			"name": "Google Compute Engine",
+			"x-api-slug": "google-compute-engine",
+			"description": "Google Compute Engine delivers virtual machines running in Googles innovative data centers and worldwide fiber network. Compute Engines tooling and workflow support enable scaling from single instances to global, load-balanced cloud computing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png",
+			"humanURL": "https://cloud.google.com/compute/",
+			"baseURL": "://www.googleapis.com//compute/v1/projects",
 			"tags": "Zones",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/google-compute-engine/openapi.md"
 				}
 			]
 		},
@@ -158,6 +143,21 @@
 			]
 		},
 		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Zones",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "Strava",
 			"x-api-slug": "strava",
 			"description": "Strava is software as a service used to track cycling, running, and swimming activity via GPS.",
@@ -180,12 +180,8 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/data-gov/apis.yaml"
 		},
 		{
-			"name": "CloudFlare",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/cloudflare/apis.yaml"
-		},
-		{
-			"name": "Shopify",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/shopify/apis.yaml"
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/here/apis.yaml"
 		},
 		{
 			"name": "Hewlett Packard Enterprise (HPE)",
@@ -204,8 +200,8 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/apis.yaml"
 		},
 		{
-			"name": "Azure DNS",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/azure-dns/apis.yaml"
+			"name": "Google Compute Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/google-compute-engine/apis.yaml"
 		},
 		{
 			"name": "Avaza",
@@ -214,6 +210,10 @@
 		{
 			"name": "Rebilly",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/predix/apis.yaml"
 		},
 		{
 			"name": "Strava",

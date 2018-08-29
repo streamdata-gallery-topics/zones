@@ -12,16 +12,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/strava/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Strava API v3 - Get Zones
-  x-api-slug: athletezones-get
-  description: Returns the the authenticated athlete's heart rate and power zones.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
-  humanURL: ""
-  baseURL: https://www.strava.com//api/v3
-  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/strava/athletezones-get-openapi.md
 - name: Strava API v3 - Get Activity Zones
   x-api-slug: activitiesidzones-get
   description: Premium Feature. Returns the zones of a given activity.
