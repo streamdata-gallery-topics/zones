@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure DNS
 x-complete: 1
@@ -91,26 +90,6 @@ paths:
           description: OK
       tags:
       - Zones
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones:
-    get:
-      summary: Zones List By Resource Group
-      description: Lists the DNS zones within a resource group.
-      operationId: Zones_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkdnszones-get
-      parameters:
-      - in: query
-        name: $top
-        description: The maximum number of record sets to return
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Zones Resource Group
   /subscriptions/{subscriptionId}/providers/Microsoft.Network/dnszones:
     get:
       summary: Zones List
@@ -128,4 +107,3 @@ paths:
           description: OK
       tags:
       - Zones
----

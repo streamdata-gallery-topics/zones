@@ -28,55 +28,28 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Zones
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CloudHSM API List Available Zones
-  x-api-slug: aws-cloudhsm-api
+- name: AWS CloudHSM API - List Available Zones
+  x-api-slug: actionlistavailablezones-get
   description: Lists the Availability Zones that have available AWS CloudHSM capacity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
-  baseURL: ://///?Action=ListAvailableZones
-  tags: Zones
+  baseURL: :///
+  tags: Amazon Web Services, Contracts, Regulations, Management, Encryption, Stack
+    Network, API Service Provider, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/actionlistavailablezones-get-openapi.md
-- name: AWS CloudHSM API
-  x-api-slug: aws-cloudhsm-api
-  description: The AWS CloudHSM service helps you meet corporate, contractual and
-    regulatory compliance requirements for data security by using dedicated Hardware
-    Security Module (HSM) appliances within the AWS cloud. With CloudHSM, you control
-    the encryption keys and cryptographic operations performed by the HSM.AWS and
-    AWS Marketplace partners offer a variety of solutions for protecting sensitive
-    data within the AWS platform, but for applications and data subject to rigorous
-    contractual or regulatory requirements for managing cryptographic keys, additional
-    protection is sometimes necessary. Until now, your only option was to store the
-    sensitive data (or the encryption keys protecting the sensitive data) in your
-    on-premises datacenters. Unfortunately, this either prevented you from migrating
-    these applications to the cloud or significantly slowed their performance. The
-    AWS CloudHSM service allows you to protect your encryption keys within HSMs designed
-    and validated to government standards for secure key management. You can securely
-    generate, store, and manage the cryptographic keys used for data encryption such
-    that they are accessible only by you. AWS CloudHSM helps you comply with strict
-    key management requirements without sacrificing application performance.The AWS
-    CloudHSM service works with Amazon Virtual Private Cloud (VPC). CloudHSM instances
-    are provisioned inside your VPC with an IP address that you specify, providing
-    simple and private network connectivity to your Amazon Elastic Compute Cloud (EC2)
-    instances. Placing CloudHSM instances near your EC2 instances decreases network
-    latency, which can improve application performance. AWS provides dedicated and
-    exclusive (single tenant) access to CloudHSM instances, isolated from other AWS
-    customers. Available in multiple Regions and Availability Zones (AZs), AWS CloudHSM
-    allows you to add secure and durable key storage to your applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
-  humanURL: https://aws.amazon.com/cloudhsm/
-  baseURL: :///
-  tags: Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-cloudhsm/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.cloudfront.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudhsm.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
 - type: x-faq

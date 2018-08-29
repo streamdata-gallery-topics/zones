@@ -25,84 +25,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Zones
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Route 53 API Create Hosted Zone
-  x-api-slug: aws-route-53-api
-  description: Creates a new public hosted zone, used to specify how the Domain Name
-    System (DNS)routes traffic on the Internet for a domain, such as example.com,
-    and its subdomains. ImportantPublic hosted zones can't be converted to a private
-    hosted zone or vice versa.Instead, create a new hosted zone with the same name
-    and create new resource recordsets.Send a POST request to the /2013-04-01/hostedzone
-    resource. The request body must include a documentwith a CreateHostedZoneRequest
-    element. The response returns theCreateHostedZoneResponse element containing metadata
-    about the hostedzone.Fore more information about charges for hosted zones, see
-    Amazon Route 53 Pricing.Note the following:You can't create a hosted zone for
-    a top-level domain (TLD).Amazon Route 53 automatically creates a default SOA record
-    and four NS records for the zone.For more information about SOA and NS records,
-    see NS and SOA Records that Amazon Route 53 Creates for a Hosted Zone in the Amazon
-    Route 53 Developer Guide.If your domain is registered with a registrar other than
-    Amazon Route 53, you must update thename servers with your registrar to make Amazon
-    Route 53 your DNS service. For more information, seeConfiguring Amazon Route 53
-    as your DNSService in the Amazon Route 53 Developer's Guide.After creating a zone,
-    its initial status is PENDING. This means that itis not yet available on all DNS
-    servers. The status of the zone changes to INSYNCwhen the NS and SOA records are
-    available on all Amazon Route 53 DNS servers. When trying to create a hosted zone
-    using a reusable delegation set, specify anoptional DelegationSetId, and Amazon
-    Route 53 would assign those 4 NS records for the zone, instead ofallotting a new
-    one.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzone
-  tags: Hosted Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzone-post-openapi.md
-- name: AWS Route 53 API Delete Hosted Zone
-  x-api-slug: aws-route-53-api
-  description: Deletes a hosted zone. Send a DELETE request to the /Amazon Route 53API
-    version/hostedzone/hosted zone ID             resource.ImportantDelete a hosted
-    zone only if there are no resource record sets other than the defaultSOA record
-    and NS resource record sets. If the hosted zone contains other resource recordsets,
-    delete them before deleting the hosted zone. If you try to delete a hosted zone
-    thatcontains other resource record sets, Amazon Route 53 denies your request with
-    aHostedZoneNotEmpty error. For information about deleting records from yourhosted
-    zone, see ChangeResourceRecordSets.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzone/Id
-  tags: Hosted Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-delete-openapi.md
-- name: AWS Route 53 API Get Hosted Zone
-  x-api-slug: aws-route-53-api
-  description: Retrieves the delegation set for a hosted zone, including the four
-    name serversassigned to the hosted zone. Send a GET request to the /Amazon Route
-    53 APIversion/hostedzone/hosted zone ID             resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzone/Id
-  tags: Hosted Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-get-openapi.md
-- name: AWS Route 53 API Get Hosted Zone Count
-  x-api-slug: aws-route-53-api
-  description: Retrieves a count of all your hosted zones. Send a GET request to the/2013-04-01/hostedzonecount
-    resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzonecount
-  tags: Hosted Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzonecount-get-openapi.md
-- name: AWS Route 53 API List Hosted Zones
-  x-api-slug: aws-route-53-api
+- name: AWS Route 53 API - List Hosted Zones
+  x-api-slug: 20130401hostedzoneampdelegationsetiddelegationsetidmarkermarkerampmaxitemsmaxitems-get
   description: 'To retrieve a list of your public and private hosted zones, send a
     GETrequest to the /2013-04-01/hostedzone resource. The response to this requestincludes
     a HostedZones child element for each hosted zone created by the currentAWS account.Amazon
@@ -121,13 +50,14 @@ apis:
     parameter in the previous request.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzone&amp;delegationsetid=DelegationSetId?marker=Marker&amp;maxitems=MaxItems
-  tags: Hosted Zones
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneampdelegationsetiddelegationsetidmarkermarkerampmaxitemsmaxitems-get-openapi.md
-- name: AWS Route 53 API List Hosted Zones By Name
-  x-api-slug: aws-route-53-api
+- name: AWS Route 53 API - List Hosted Zones By Name
+  x-api-slug: 20130401hostedzonesbynamednsnamednsnameamphostedzoneidhostedzoneidampmaxitemsmaxitems-get
   description: 'Retrieves a list of your hosted zones in lexicographic order. Send
     a GETrequest to the /2013-04-01/hostedzonesbyname resource. The response includes
     aHostedZones child element for each hosted zone created by the current AWSaccount.             ListHostedZonesByName
@@ -159,52 +89,17 @@ apis:
     parameters, respectively.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzonesbyname?dnsname=DNSName&amp;hostedzoneid=HostedZoneId&amp;maxitems=MaxItems
-  tags: Hosted Zones
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzonesbynamednsnamednsnameamphostedzoneidhostedzoneidampmaxitemsmaxitems-get-openapi.md
-- name: AWS Route 53 API Update Hosted Zone Comment
-  x-api-slug: aws-route-53-api
-  description: Updates the hosted zone comment. Send a POST request to the/2013-04-01/hostedzone/hosted
-    zone ID             resource.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: ://///2013-04-01/hostedzone/Id
-  tags: Hosted Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/20130401hostedzoneid-post-openapi.md
-- name: AWS Route 53 API
-  x-api-slug: aws-route-53-api
-  description: Amazon Route 53 is a highly available and scalable cloud Domain Name
-    System (DNS) web service. It is designed to give developers and businesses an
-    extremely reliable and cost effective way to route end users to Internet applications
-    by translating names like www.example.com into the numeric IP addresses like 192.0.2.1
-    that computers use to connect to each other. Amazon Route 53 is fully compliant
-    with IPv6 as well.Amazon Route 53 effectively connects user requests to infrastructure
-    running in AWS &ndash; such as Amazon EC2 instances, Elastic Load Balancing load
-    balancers, or Amazon S3 buckets &ndash; and can also be used to route users to
-    infrastructure outside of AWS. You can use Amazon Route 53 to configure DNS health
-    checks to route traffic to healthy endpoints or to independently monitor the health
-    of your application and its endpoints. Amazon Route 53 Traffic Flow makes it easy
-    for you to manage traffic globally through a variety of routing types, including
-    Latency Based Routing, Geo DNS, and Weighted Round Robin&mdash;all of which can
-    be combined with DNS Failover in order to enable a variety of low-latency, fault-tolerant
-    architectures. Using Amazon Route 53 Traffic Flow&rsquo;s simple visual editor,
-    you can easily manage how your end-users are routed to your application&rsquo;s
-    endpoints&mdash;whether in a single AWS region or distributed around the globe.
-    Amazon Route 53 also offers Domain Name Registration &ndash; you can purchase
-    and manage domain names such as example.com and Amazon Route 53 will automatically
-    configure DNS settings for your domains.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
-  humanURL: https://aws.amazon.com/route53/
-  baseURL: :///
-  tags: Zones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/zones/master/_listings/aws-route-53/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.rekognition.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.route.53.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
 - type: x-faq
